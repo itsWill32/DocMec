@@ -1,0 +1,450 @@
+*{
+  font-family: Roboto;
+
+}
+
+/* PAGE */
+.text{
+  position: relative;
+  margin-top: -250px;
+  margin-left: 550px;
+  text-align: justify;
+  width: 40%;
+  height: 50%;
+}
+
+/* FOOTER */
+.footer{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: rgba(88, 170, 230, 0.35);
+}
+
+.contactos{
+  margin-left: 16rem;
+
+}
+.imgUbicacion{
+  position: relative;
+}
+.imgTelefono{
+  position:absolute;
+  margin-left: -7rem;
+}
+.imgCorreo{
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: -7rem;
+}
+.redes-Sociales{
+  margin: auto;
+  
+}
+
+/*FORM LOGIN*/
+.container-login{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  align-content: center;
+  margin-top: 8%;
+  width: 50%;
+  height: 70%;
+  margin-left: 15%;
+}
+.container-email{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  color: rgba(88, 170, 230, 0.91);
+
+}
+.label-email{
+  position: absolute;
+  margin-top: -5vh;  
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-email{
+  width: 150%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+}
+
+.container-password{
+  margin-bottom: 10vh;
+  color: rgba(88, 170, 230, 0.73);
+
+}
+.label-password{
+  position: absolute;
+  margin-top: -5vh;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.input-password{
+  width: 150%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+}
+.button-IniciarSesion{
+  width: 18vh;
+  height: 4vh;
+  border-radius: 1.5625rem;
+  background: rgba(88, 170, 230, 0.48);
+  border: none;
+  margin-left: 10vh;
+  margin-bottom: 3vh
+}
+.button-registar{
+  margin-left: 7vh;
+}
+
+/*FORM REGISTER */
+.container-register{
+  top: 20%;
+  left: 15%;
+  position: absolute;
+  color: rgba(88, 170, 230, 0.73);
+  margin-top: -50px;
+
+}
+.label-nombreR{
+  position: absolute;
+  margin-top: vh;  
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.input-nombreR{
+  width: 125%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  position: absolute;
+  margin-top: 5vh;
+}
+
+.label-numeroR{
+  position: absolute;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 9vh;
+}
+.input-numeroR{
+  position: absolute;
+  width: 125%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 14vh;
+}
+
+.label-emailR{
+  position: absolute;
+  margin-top: 18vh;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.input-emailR{
+  width: 125%;
+  position: absolute;
+  margin-top: 23vh;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+}
+
+.label-passwordR{
+  position: absolute;
+  margin-top: 28vh;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.input-passwordR{
+  width: 125%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  position: absolute;
+  margin-top: 32vh;
+}
+
+/* PERFIL*/
+.label-nameProfile{
+  margin-top: 1%;
+  margin-left: 15%;
+}
+.input-nameProfile{
+  margin-top: 2.5%;
+  margin-left: -3.5%;
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+}
+
+.label-apellidoProfile{
+  margin-top: -2%;
+  margin-left: 30%;
+  position: absolute;
+}
+.input-apellidoProfile{
+  margin-top: -.2%;
+  margin-left: 30%;
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+}
+
+.img-Profile{
+  margin-top: 4%;
+  width: 18%;
+  height: 200px;
+  margin-left: 27%;
+}
+
+.biografia{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.label-edadProfile{
+  
+}
+.input-edadProfile{
+  margin-left: 4.5%;
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -10px;
+}
+.label-pesoProfile{
+
+}
+.input-pesoProfile{
+  margin-left: 4.6%;
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -10px;
+}
+.label-estaturaProfile{
+
+}
+.input-estaturaProfile{
+  margin-left: 3.2%;
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -10px;
+
+}
+.label-pesoObjetivoProfile{
+
+}
+.input-pesoObjetivoProfile{
+  margin-left: 1%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -10px;
+  position: absolute;
+}
+
+.input-numeroProfile{
+  margin-left: 3.5%;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -5px;
+  position: absolute;
+}
+
+.label-alergiasProfile{
+  position: absolute;
+  margin-left: 28%;
+  margin-top: -6%;
+}
+
+.input-alergiasProfile{
+  position: absolute;
+  margin-left: 33%;
+  margin-top: -6%;
+  width: 20%;
+  height: 10%;
+  border: 2px solid #D6D1D5;
+  vertical-align: top;
+  text-align: top;
+}
+
+.label-comidasProfile{
+  position: absolute;
+  margin-left: 24%;
+}
+.input-comidasProfile{
+  position: absolute;
+  margin-left: 33%;
+  width: 20%;
+  height: 10%;
+  border: 2px solid #D6D1D5;
+} 
+
+/*AGENDAR CITA*/
+
+.container-agendarCita{
+  width: 50%;
+  height: 50%;
+  display: grid;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.label-nombreCita{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+.input-nombreCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  margin-left: 30%;
+}
+
+.label-condionesCita{
+  position: absolute;
+  margin-left: 15%;
+}
+
+.select-condionesCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  margin-left: 30%;
+}
+
+.label-medicamentosCita{
+  position: absolute;
+  margin-left: 15%;
+}
+.select-medicamentosCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 4%;
+  margin-left: 30%;
+
+}
+
+.label-medicoCita{
+  position: absolute;
+  margin-left: 15%;
+}
+.select-medicoCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 6%;
+  margin-left: 30%;
+
+}
+
+.label-diaCita{
+  position: absolute;
+  margin-left: 15%;
+}
+.input-diaCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: 5%;
+  margin-left: 24%;
+}
+
+.label-horaCita{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: -4.2%;
+}
+.input-horaCita{
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 2px solid #D6D1D5;
+  margin-top: -1.7%;
+  margin-left: 33%;
+  position: absolute;
+}
+
+/*VER CITAS ADMIN*/
+
+.container-citasAdmin{
+  width: 80%;
+  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  margin-top: 2%;
+}
+.card-perfilAdmin{
+  width: 80%;
+  height: auto;
+  border: 2px solid rgba(88, 170, 230, 0.48);
+  border-radius: 50px;
+  margin-bottom: 2%;
+}
+.card-imgAdmni{
+  position: absolute;
+  width: 6%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-right: 2px solid rgba(88, 170, 230, 0.48);
+}
+.card-infoAdmin{
+  margin-left: 40%;
+}
+
